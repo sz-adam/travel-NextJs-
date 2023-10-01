@@ -33,7 +33,7 @@ const Search: React.FC<TravelCardProps> = ({ setTravel }) => {
                     className="input input-bordered input-success w-full max-w-xs mx-3"
                     value={text}
                     onChange={e => setText(e.target.value)} />
-                <button type='submit'>Search</button>
+                <button type='submit' className="btn btn-outline btn-success">Search</button>
             </form>
         </div>
     )
