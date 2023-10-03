@@ -28,7 +28,7 @@ export default function TravelCard() {
     const categorys = ["all", ...Array.from(new Set(travel.map((item) => item.category)))];
     const filteredCategory = selectedCategory === "all" ? travel : travel.filter(trav => trav.category === selectedCategory)
 
-    const handleCategory = (category: any) => {
+    const handleCategory = (category: string) => {
         setSelectedCategory(category);
 
     };
