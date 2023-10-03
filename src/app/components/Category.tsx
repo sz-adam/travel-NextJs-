@@ -35,9 +35,9 @@ const Category = ({ categorys, selectedCategory, handleCategory }: Props) => {
                             handleLinkClick();
                         }}
                         className={`${selectedCategory === category
-                                ? 'bg-blue-500 text-white'
+                                ? 'btn text-white'
                                 : 'bg-gray-300 text-gray-700'
-                            } px-4 py-2 mx-3 mb-2 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50 max-md:w-36`}
+                            } px-4 py-2 mx-3 mb-2 rounded-md  focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50 max-md:w-36`}
                     >
                         {category === "all" ? "All" : category}
                     </button>

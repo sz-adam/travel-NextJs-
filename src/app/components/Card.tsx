@@ -1,5 +1,7 @@
-import React, { Dispatch, SetStateAction } from 'react'
+import React from 'react'
 import { Travel } from '../types/travel'
+import Link from 'next/link'
+
 
 type Props = {
   travel: Travel[]
@@ -18,7 +20,8 @@ const Card = ({ travel }: Props) => {
             <h2 className="text-2xl font-semibold">{items.location_name} ({items.city})</h2>
             <p className="text-gray-600 mt-2">{items.description}</p>
             <div className="mt-4 flex justify-between items-center">
-              <button type='submit' className="btn btn-outline btn-success">Megnéz</button>
+            <Link href={`/travel/${items.location_name}`} className="btn">View</Link> 
+
               <div className="text-sm text-gray-500 border px-3 py-1 rounded-full" >{items.category}</div>
             </div>
           </div>
