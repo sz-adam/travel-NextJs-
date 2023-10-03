@@ -1,4 +1,4 @@
-import Details from "../../components/Details";
+import Details from "../../pages/details/page";
 
 type Props = {
   params: {
@@ -8,7 +8,7 @@ type Props = {
 
 const LocationName = ({ params: { location_name } }: Props) => {
   return (
-   <Details location_name={location_name}/>
+    <Details location_name={location_name} />
   );
 };
 
