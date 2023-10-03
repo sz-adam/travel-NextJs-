@@ -6,7 +6,7 @@ export type Travel ={
     description: string;
     rating: number;
     images: string[];
-    reviews: String[];
+    reviews: Review[];
 }
 
 export type Review = {
