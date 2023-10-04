@@ -28,8 +28,8 @@ const Details = (props: Props) => {
     return (
         <div >
             {data && data.map((item: Travel) => (
-                <div key={item.id} className='flex max-md:flex-col'>
-                    <div className=' w-[50%] max-md:w-screen flex justify-center items-center  '>
+                <div key={item.id} className='flex max-lg:flex-col justify-center items-center '>
+                    <div className=' w-[50%] max-lg:w-screen flex justify-center items-center  '>
                         <DetailsCarousel images={item.images} />
                     </div>
                     <div className='flex flex-col justify-center items-center m-2 text-center'>
