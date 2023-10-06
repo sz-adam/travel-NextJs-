@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import DetailsCarousel from '../../components/DetailsCarousel';
 import Link from 'next/link';
 import { Review, Travel } from '@/app/types/travel';
+import Rating from '@/app/components/Rating';
 
 type Props = {
     location_name: string;
@@ -23,7 +24,7 @@ const Details = (props: Props) => {
             }
         };
         fetchData();
-    }, [location_name]);
+    }, [location_name]);    
 
     return (
         <div >
@@ -42,7 +43,7 @@ const Details = (props: Props) => {
                                 <div key={index} className='block m-6 p-6 bg-white border border-gray-200 rounded-2xl shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
                                     <p className="text-2xl font-bold text-center">{review.name}</p>
                                     <p className='py-4'>{review.description}</p>
-                                    <p className="text-yellow-500">Rating: {review.rating}</p>
+                                    <Rating rating ={review.rating}/>                                 
                                 </div>
                             ))}
                             <Link href='/' className='mx-6 btn'>Home </Link>
