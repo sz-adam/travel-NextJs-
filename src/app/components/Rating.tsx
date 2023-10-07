@@ -6,8 +6,7 @@ type Props = {
     rating: number
 }
 
-const Rating = (props: Props) => {
-    const { rating } = props
+const Rating = ({rating}: Props) => {    
     const ratingStar = Array.from({ length: 5 }, (elem, index) => {
         let number = index + 0.5;
         return (

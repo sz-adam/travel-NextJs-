@@ -6,8 +6,7 @@ type Props = {
   images: string[];
 };
 
-const DetailsCarousel = (props: Props) => {
-  const { images } = props;
+const DetailsCarousel = ({ images }: Props) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const prevSlide = () => {
