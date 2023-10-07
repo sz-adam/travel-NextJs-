@@ -1,7 +1,7 @@
 import React from 'react'
 import { Travel } from '../types/travel'
 import Link from 'next/link'
-
+import FullRating from './FullRating'
 
 type Props = {
   travel: Travel[]
@@ -19,9 +19,9 @@ const Card = ({ travel }: Props) => {
           <div className="p-4">
             <h2 className="text-2xl font-semibold">{items.location_name} ({items.city})</h2>
             <p className="text-gray-600 mt-2">{items.description}</p>
-            <div className="mt-4 flex justify-between items-center">
-            <Link href={`/travel/${items.location_name}`} className="btn">View</Link> 
-
+            <div className="mt-4 flex justify-between items-center text-center">
+              <Link href={`/travel/${items.location_name}`} className="btn">View</Link>
+              <FullRating reviews={items.reviews} />
               <div className="text-sm text-gray-500 border px-3 py-1 rounded-full" >{items.category}</div>
             </div>
           </div>
