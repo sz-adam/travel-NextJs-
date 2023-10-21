@@ -5,17 +5,21 @@ import Search from "../components/Search"
 import Card from "../components/Card"
 import { Travel } from '../types/travel';
 import Category from "../components/Category"
+import Loading from "../loading/page"
 
 export default function TravelCard() {
     const apiUrl = process.env.API_BASE_URL
     const [travel, setTravel] = useState<Travel[]>([]);
     const [selectedCategory, setSelectedCategory] = useState<string>("all");
+      const [loading, setLoading] = useState<boolean>(true);
+
     useEffect(() => {
         async function fetchData() {
             if (apiUrl) {
                 try {
                     const res = await axios.get(apiUrl);
                     setTravel(res.data);
+                    setLoading(false);
                 } catch (error) {
                     console.error('Error fetching travel data:', error);
                 }
@@ -34,9 +38,11 @@ export default function TravelCard() {
     };
 
     return (
-        <div className='m-5'>
-            <Search setTravel={setTravel} />
+        <div className='p-5'>
+      
+            <Search setTravel={setTravel} />            
             <Category categorys={categorys} selectedCategory={selectedCategory} handleCategory={handleCategory} />
+            {loading && <Loading />}
             <Card travel={filteredCategory} />
         </div>
     );
