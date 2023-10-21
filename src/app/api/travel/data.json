@@ -7,17 +7,19 @@
         "description": "The Eiffel Tower is one of the most famous landmarks in Paris and a symbol of the city. It was built for the 1889 World's Fair.",
         "rating": 5,
         "images": [
-            "https://example.com/paris_eiffel1.jpg",
-            "https://example.com/paris_eiffel2.jpg",
-            "https://example.com/paris_eiffel3.jpg"
+            "https://images.pexels.com/photos/460740/pexels-photo-460740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2348811/pexels-photo-2348811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/342113/pexels-photo-342113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Anna",
                 "description": "Fantastic place! Beautiful view and lots of attractions nearby.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Peter",
                 "description": "Very beautiful, but crowded with tourists. It can be hard to get on the elevator without waiting in line.",
                 "rating": 4
@@ -32,17 +34,19 @@
         "description": "Ubud is a charming town on the island of Bali. It's famous for its arts and cultural events, as well as the rice terraces.",
         "rating": 4,
         "images": [
-            "https://example.com/bali_ubud1.jpg",
-            "https://example.com/bali_ubud2.jpg",
-            "https://example.com/bali_ubud3.jpg"
+            "https://images.pexels.com/photos/2412711/pexels-photo-2412711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/4530514/pexels-photo-4530514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2762877/pexels-photo-2762877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Eva",
                 "description": "Wonderful place! The rice terraces are stunning, and there are many great restaurants in town.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Gabor",
                 "description": "It has numerous cultural attractions, but unfortunately, there is a lot of traffic.",
                 "rating": 3
@@ -57,17 +61,19 @@
         "description": "The Colosseum is the most famous ancient amphitheater in Rome, where gladiator battles took place.",
         "rating": 4,
         "images": [
-            "https://example.com/rome_colosseum1.jpg",
-            "https://example.com/rome_colosseum2.jpg",
-            "https://example.com/rome_colosseum3.jpg"
+            "https://images.pexels.com/photos/1701595/pexels-photo-1701595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/1809616/pexels-photo-1809616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/17649403/pexels-photo-17649403/free-photo-of-varos-tajekozodasi-pont-epulet-fal.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Thomas",
                 "description": "Impressive building, a must-see in Rome.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Clara",
                 "description": "Very exciting, but crowded with tourists. It's hard to take good photos.",
                 "rating": 4
@@ -82,17 +88,19 @@
         "description": "The Sensō-ji Temple is one of Japan's oldest Buddhist temples and an important religious site in Tokyo.",
         "rating": 5,
         "images": [
-            "https://example.com/tokyo_sensoji1.jpg",
-            "https://example.com/tokyo_sensoji2.jpg",
-            "https://example.com/tokyo_sensoji3.jpg"
+            "https://images.pexels.com/photos/5459275/pexels-photo-5459275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/161164/senso-ji-kyoto-japan-temple-161164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/161251/senso-ji-temple-japan-kyoto-landmark-161251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Stephen",
                 "description": "Very peaceful and spiritual place. I recommend it to everyone.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Maria",
                 "description": "Beautiful temple, but there are many tourist groups.",
                 "rating": 3
@@ -107,17 +115,19 @@
         "description": "The Statue of Liberty is an iconic symbol of the United States and one of the most famous landmarks in New York.",
         "rating": 4,
         "images": [
-            "https://example.com/new_york_statue1.jpg",
-            "https://example.com/new_york_statue2.jpg",
-            "https://example.com/new_york_statue3.jpg"
+            "https://images.pexels.com/photos/2360574/pexels-photo-2360574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/887849/pexels-photo-887849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2767739/pexels-photo-2767739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "John",
                 "description": "Fantastic place! The view from the statue is breathtaking.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Emily",
                 "description": "Great experience, but there can be long lines to enter.",
                 "rating": 4
@@ -132,17 +142,19 @@
         "description": "Christ the Redeemer is located on Corcovado Mountain and is one of Rio de Janeiro's most famous landmarks.",
         "rating": 5,
         "images": [
-            "https://example.com/rio_cristo1.jpg",
-            "https://example.com/rio_cristo2.jpg",
-            "https://example.com/rio_cristo3.jpg"
+            "https://images.pexels.com/photos/13911606/pexels-photo-13911606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2868240/pexels-photo-2868240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/18006354/pexels-photo-18006354/free-photo-of-muveszet-tajekozodasi-pont-szobor-vallas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Carlos",
                 "description": "Unique sight over the city. It's definitely worth the hike to the top of the mountain.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Isabella",
                 "description": "Beautiful place, but sometimes fog obscures the view.",
                 "rating": 4
@@ -157,17 +169,19 @@
         "description": "Fisherman's Bastion is located in the Buda Castle District and is one of the most romantic spots in Budapest.",
         "rating": 4,
         "images": [
-            "https://example.com/budapest_halaszbastya1.jpg",
-            "https://example.com/budapest_halaszbastya2.jpg",
-            "https://example.com/budapest_halaszbastya3.jpg"
+            "https://images.pexels.com/photos/9763733/pexels-photo-9763733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/4916240/pexels-photo-4916240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/9392346/pexels-photo-9392346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Kathryn",
                 "description": "Beautiful view of the Danube and the Parliament building.",
                 "rating": 4
             },
             {
+                "id": 2,
                 "name": "Ferenc",
                 "description": "A great place for photography, especially before sunset.",
                 "rating": 4
@@ -182,17 +196,19 @@
         "description": "The Sagrada Família is a stunning basilica designed by Antoni Gaudí. It's one of Barcelona's most famous landmarks.",
         "rating": 5,
         "images": [
-            "https://example.com/barcelona_sagrada1.jpg",
-            "https://example.com/barcelona_sagrada2.jpg",
-            "https://example.com/barcelona_sagrada3.jpg"
+            "https://images.pexels.com/photos/14948888/pexels-photo-14948888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/14609193/pexels-photo-14609193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/819764/pexels-photo-819764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Laura",
                 "description": "Marvelous building with beautiful details.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Martin",
                 "description": "Incredible work of art, but there can be long lines to enter.",
                 "rating": 4
@@ -207,17 +223,19 @@
         "description": "The Sydney Opera House is one of the most iconic buildings in Sydney and is a UNESCO World Heritage Site.",
         "rating": 4,
         "images": [
-            "https://example.com/sydney_opera1.jpg",
-            "https://example.com/sydney_opera2.jpg",
-            "https://example.com/sydney_opera3.jpg"
+            "https://images.pexels.com/photos/2193268/pexels-photo-2193268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2845013/pexels-photo-2845013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Sophie",
                 "description": "Fantastic building with a beautiful view of the harbor.",
                 "rating": 4
             },
             {
+                "id":2,
                 "name": "Thomas",
                 "description": "A great place for concerts and performances.",
                 "rating": 4
@@ -226,28 +244,30 @@
     },
     {
         "id": 10,
-        "category": "Museums",
-        "city": "Amsterdam",
-        "location_name": "Van Gogh Museum",
-        "description": "The Van Gogh Museum showcases the works of the famous Dutch painter. It's a must-visit for art lovers.",
-        "rating": 4,
+        "category": "Landmarks",
+        "city": "New York",
+        "location_name": "Empire State Building",
+        "description": "The Empire State Building is an iconic skyscraper in the heart of New York City. It offers stunning views from its observation deck.",
+        "rating": 4.6,
         "images": [
-            "https://example.com/amsterdam_vangogh1.jpg",
-            "https://example.com/amsterdam_vangogh2.jpg",
-            "https://example.com/amsterdam_vangogh3.jpg"
+          "https://images.pexels.com/photos/2224861/pexels-photo-2224861.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/5845709/pexels-photo-5845709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
-            {
-                "name": "Maria",
-                "description": "A wonderful museum with stunning artworks.",
-                "rating": 4
-            },
-            {
-                "name": "Peter",
-                "description": "You can learn a lot about the artist's life and art here.",
-                "rating": 4
-            }
-        ]
+          {
+            "id": 1,
+            "name": "Michael",
+            "description": "Visiting the Empire State Building was a dream come true for me. The views were incredible.",
+            "rating": 5
+          },
+          {
+            "id": 2,
+            "name": "Jennifer",
+            "description": "A true symbol of New York City, a must-visit when you're in town.",
+            "rating": 4.5
+          }
+        ]    
     },
     {
         "id": 11,
@@ -257,17 +277,19 @@
         "description": "The Great Wall of China is one of the most famous landmarks in the world and a major historical site in Beijing.",
         "rating": 5,
         "images": [
-            "https://example.com/beijing_great_wall1.jpg",
-            "https://example.com/beijing_great_wall2.jpg",
-            "https://example.com/beijing_great_wall3.jpg"
+            "https://images.pexels.com/photos/19872/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2412603/pexels-photo-2412603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2304791/pexels-photo-2304791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Laszlo",
                 "description": "Impressive view, enormous and historical.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Anna",
                 "description": "Exciting experience, but it's best to avoid the crowded sections.",
                 "rating": 4
@@ -277,26 +299,28 @@
     {
         "id": 12,
         "category": "Historical Sites",
-        "city": "Krakow",
-        "location_name": "Wawel Castle",
-        "description": "Wawel Castle is located in the historic center of Krakow and is one of Poland's most important cultural sites.",
-        "rating": 4,
+        "city": "Paris",
+        "location_name": "Louvre Museum",
+        "description": "The Louvre Museum in Paris, France, is one of the world's largest and most famous art museums. It houses a vast collection of art and historical artifacts.",
+        "rating": 4.7,
         "images": [
-            "https://example.com/krakow_wawel1.jpg",
-            "https://example.com/krakow_wawel2.jpg",
-            "https://example.com/krakow_wawel3.jpg"
+          "https://images.pexels.com/photos/163895/paris-louvre-france-museum-163895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/2703478/pexels-photo-2703478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
-            {
-                "name": "Marta",
-                "description": "Beautiful building with many historical relics.",
-                "rating": 4
-            },
-            {
-                "name": "Gergo",
-                "description": "It's worth visiting both the castle and the gardens.",
-                "rating": 4
-            }
+          {
+            "id": 1,
+            "name": "Sophie",
+            "description": "The Louvre is an art lover's paradise, and the Mona Lisa is a must-see.",
+            "rating": 5
+          },
+          {
+            "id": 2,
+            "name": "Paul",
+            "description": "The museum's architecture is as impressive as its collection.",
+            "rating": 4.5
+          }
         ]
     },
     {
@@ -307,17 +331,19 @@
         "description": "Burj Khalifa is the world's tallest skyscraper and one of Dubai's most distinctive buildings.",
         "rating": 5,
         "images": [
-            "https://example.com/dubai_burjkhalifa1.jpg",
-            "https://example.com/dubai_burjkhalifa2.jpg",
-            "https://example.com/dubai_burjkhalifa3.jpg"
+            "https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/3567218/pexels-photo-3567218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/37848/burj-khalifa-dubai-skyscraper-u-a-e-37848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Bence",
                 "description": "Amazing view of the city and the desert.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Eszter",
                 "description": "Expensive, but worth it to visit the top floor.",
                 "rating": 4
@@ -332,17 +358,19 @@
         "description": "The Arashiyama Bamboo Grove is one of Japan's gems, featuring a beautiful bamboo forest and a popular tourist destination.",
         "rating": 4,
         "images": [
-            "https://example.com/kyoto_bamboo1.jpg",
-            "https://example.com/kyoto_bamboo2.jpg",
-            "https://example.com/kyoto_bamboo3.jpg"
+            "https://images.pexels.com/photos/16827771/pexels-photo-16827771/free-photo-of-fa-feny-ut-hajnal.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/4323662/pexels-photo-4323662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://images.pexels.com/photos/2070025/pexels-photo-2070025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
             {
+                "id": 1,
                 "name": "Ildiko",
                 "description": "Magical place, especially in the early morning when it's less crowded.",
                 "rating": 5
             },
             {
+                "id": 2,
                 "name": "Zoltan",
                 "description": "Beautiful, but very popular among tourists.",
                 "rating": 3
@@ -351,52 +379,30 @@
     },
     {
         "id": 15,
-        "category": "Temples",
-        "city": "Istanbul",
-        "location_name": "Suleiman Mosque",
-        "description": "The Suleiman Mosque is a magnificent architectural wonder and a significant historical monument in Istanbul, Turkey.",
-        "rating": 5,
+        "category": "Historical Sites",
+        "city": "Athens",
+        "location_name": "Acropolis of Athens",
+        "description": "The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens, Greece. It is home to several historic buildings and is a symbol of ancient Greek civilization.",
+        "rating": 4.9,
         "images": [
-            "https://example.com/istanbul_suleyman1.jpg",
-            "https://example.com/istanbul_suleyman2.jpg",
-            "https://example.com/istanbul_suleyman3.jpg"
+          "https://images.pexels.com/photos/772692/pexels-photo-772692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/772698/pexels-photo-772698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "https://images.pexels.com/photos/772689/pexels-photo-772689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         ],
         "reviews": [
-            {
-                "name": "Zsuzsa",
-                "description": "Beautiful monument with an impressive interior.",
-                "rating": 5
-            },
-            {
-                "name": "Andras",
-                "description": "A bit crowded, but definitely worth a visit.",
-                "rating": 4
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "category": "Bridges",
-        "city": "Prague",
-        "location_name": "Charles Bridge",
-        "description": "The Charles Bridge is one of Prague's iconic landmarks, a beautiful pedestrian bridge spanning the Vltava River.",
-        "rating": 4,
-        "images": [
-            "https://example.com/prague_charlesbridge1.jpg",
-            "https://example.com/prague_charlesbridge2.jpg",
-            "https://example.com/prague_charlesbridge3.jpg"
-        ],
-        "reviews": [
-            {
-                "name": "Gyula",
-                "description": "A romantic spot for evening walks, but it can be quite crowded.",
-                "rating": 4
-            },
-            {
-                "name": "Reka",
-                "description": "Beautiful views of the city from the bridge.",
-                "rating": 3
-            }
+          {
+            "id": 1,
+            "name": "Sophia",
+            "description": "The Acropolis is a living testament to the brilliance of ancient Greece. Truly awe-inspiring.",
+            "rating": 5
+          },
+          {
+            "id": 2,
+            "name": "Nikos",
+            "description": "The Parthenon is a masterpiece of architecture, and the views from the hill are stunning.",
+            "rating": 4.8
+          }
         ]
     }
+   
 ]
